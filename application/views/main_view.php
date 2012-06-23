@@ -1,6 +1,7 @@
 			<div>
 				<h2>Bienvenue</h2>
 				<hr />
+				<img src="img/students1.jpg" alt="">
 				<p>
 					Depuis 1969, l'IBBL est un ministère consacré à la formation de serviteurs de Dieu pour la France et pour le monde francophone. Un collège de pasteurs et de missionnaires s'est engagé à mettre en pratique le verset de l'IBBL, à savoir: <blockquote>"Et ce que tu as entendu de moi en présence de beaucoup de témoins, confie-le à des hommes fidèles, qui soient capables de l'enseigner aussi à d'autres." 2 Timothée 2.2</blockquote>
 				</p>
@@ -12,9 +13,9 @@
 				<h2>Rencontres</h2>
 				<hr />
 				<ul>
-					<li>Image 1</li>
-					<li>Image 2</li>
-					<li>Image 3</li>
+					<li><a href=""><img src="img/po.jpg" alt=""></a></li>
+					<li><a href=""><img src="img/vda.jpg" alt=""></a></li>
+					<li><a href=""><img src="img/sem.jpg" alt=""></a></li>
 				</ul>
 				<p>
 					Chaque année l'IBBL organise plusieurs rencontres afin d'aider les chrétiens en France à parfaire leurs connaissances bibliques et à découvrir le ministère de l'IBBL. <span><a href="">lire la suite...</a></span>
@@ -23,7 +24,7 @@
 			<div>
 				<h2>Les cours</h2>
 				<hr />
-				<img src="img/rafting.jpg">
+				<img src="img/rafting.jpg" alt="">
 				<p>
 					L'IBBL a pour but d'aider le christianisme français à grandir et ce par une formation théologique approfondie, accompagnée d'une mise en pratique de cette formation au sein d'églises  locales et de camps.
 				</p>

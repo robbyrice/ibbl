@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<base href="<?php echo base_url(); ?>">
 	<title><?php if(isset($title) AND $title != '') echo $title.' | '; echo config_item('site_name'); ?></title>
-	<meta name="description" content="">
+	<meta name="description" content="Le site de l'Institut Biblique Baptiste Libre, une école supérieure de Théologie. L'IBBL est un centre de formation pastorale et biblique se trouvant à Limay dans les Yvelines. Nos professeurs sont tous des pasteurs ou missionaires oeuvrant en France et à l'étranger.">
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/vendor/modernizr-2.5.3.min.js"></script>
@@ -16,14 +16,45 @@
 	<!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
 	<header>
-		<img alt="logo" src="img/logo.jpg" />
+		<img src="img/logo.jpg" alt="logo" />
 		<nav>
 			<ul>
-				<li><a href="">Présentation</a></li>
-				<li><a href="">Académique</a></li>
-				<li><a href="">Conférences</a></li>
+				<li><a href="">Présentation</a>
+					<ul>
+						<li><a href="">Historique</a></li>
+						<li><a href="">Le Campus</a></li>
+						<li><a href="">Les Professeurs</a></li>
+						<li><a href="">Le Personnel</a></li>
+						<li><a href="">Les Partenaires</a></li>
+						<li><a href="">Position Doctrinale</a></li>
+						<li><a href="">Nos objectifs</a></li>
+					</ul>
+				</li>
+				<li><a href="">Académique</a>
+					<ul>
+						<li><a href="">Programmmes</a></li>
+						<li><a href="">Cours</a></li>
+						<li><a href="">Tarifs</a></li>
+						<li><a href="">Admission</a></li>
+						<li><a href="">Demand de dossier</a></li>
+						<li><a href="">Visa Etudiants</a></li>
+						<li><a href="">Sécurité Sociale</a></li>
+					</ul>
+				</li>
+				<li><a href="">Conférences</a>
+					<ul>
+						<li><a href="">Vérité dans l'Amours</a></li>
+						<li><a href="">Portes Ouvertes</a></li>
+						<li><a href="">Séminaires</a></li>
+					</ul>
+				</li>
 				<li><a href="">Podcasts</a></li>
-				<li><a href="">Infos</a></li>
+				<li><a href="">Infos</a>
+					<ul>
+						<li><a href="">Lettre de Prières</a></li>
+						<li><a href="">Evènements</a></li>
+					</ul>
+				</li>
 				<li><a href="">Contact</a></li>
 			</ul>
 		</nav>
@@ -33,18 +64,18 @@
 			<ul>
 				<li>infos
 					<ul>
-						<li></li>
-						<li></li>
-						<li></li>
+						<li><img src="img/vda2012inv.jpg" alt="Invitation VDA"></li>
+						<li><img src="img/fblike.jpg" alt="Facebook"></li>
+						<li><img src="img/news.jpg" alt="Lettre de nouvelles"></li>
 					</ul>
 				</li>
 				<li>liens utiles
 					<ul>
-						<li><a href="">Suivez-nous sur Facebook</a></li>
-						<li><a href="">lettre de nouvelles</a></li>
-						<li><a href="">podcasts</a></li>
-						<li><a href="">catalogue</a></li>
-						<li><a href="">calendrier</a></li>
+						<li><a href="https://www.facebook.com/pages/Institut-Biblique-Baptiste-Libre-Ibbl/240811165966673"><img src="img/fb.jpg" alt="Facebook">Suivez-nous sur Facebook</a></li>
+						<li><a href=""><img src="img/newsletter.jpg" alt="">lettre de nouvelles</a></li>
+						<li><a href=""><img src="img/podcast.jpg" alt="">podcasts</a></li>
+						<li><a href=""><img src="img/catalogue.jpg" alt="">catalogue</a></li>
+						<li><a href=""><img src="img/calendar.jpg" alt="">calendrier</a></li>
 					</ul>
 				</li>
 			</ul>
