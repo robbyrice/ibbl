@@ -4,11 +4,12 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Robert Doucette -- Lead developer -- @robbyrice
 
 # THANKS
 
-    <name>
+    The HTML5 Boilerplate team (www.html5boilerplate.com)
+    The CodeIgniter team from Ellis Labs (www.codeigniter.com)
 
 # TECHNOLOGY COLOPHON
 

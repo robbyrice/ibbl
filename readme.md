@@ -1,1 +1,2 @@
-This project is the combination of CodeIgniter and the html5 BoilerPlate.
+This is the code that powers the web app for the Institit Biblique Baptiste Libre de Mantes/Limay.
+It derives from the github.com/robbyrice/html5-template project which is a combination of CodeIgniter and the HTML5 Boilerplate.

@@ -1,6 +1,6 @@
 <?php
 // uncomment if the project will be using the french language
-// setlocale(LC_TIME, 'fra', 'fr_FR', 'fr_FR.utf8');
+ setlocale(LC_TIME, 'fra', 'fr_FR', 'fr_FR.utf8');
 
 /*
  *---------------------------------------------------------------
