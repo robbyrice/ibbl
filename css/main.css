@@ -480,10 +480,6 @@ header nav ul li:hover ul {
     display: block;
 }
 
-header nav ul li ul li a, header nav ul li ul li a:visited {
-    /*color: black;*/
-}
-
 header nav ul li ul li a {
     background: #c3d4e6;
     display: block;
@@ -496,7 +492,6 @@ header nav ul li ul li a:hover {
 }
 
 #main {
-    /*background: green;*/
     margin: 80px auto 0 auto;
     width: 90%;
 }
