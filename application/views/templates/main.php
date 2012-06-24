@@ -16,7 +16,7 @@
 	<!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
 	<header>
-		<img src="img/logo.jpg" alt="logo" />
+		<a href="<?php echo base_url(); ?>"><img src="img/logo.jpg" alt="logo" id="logo"></a>
 		<nav>
 			<ul>
 				<li><a href="">Présentation</a>
@@ -36,14 +36,14 @@
 						<li><a href="">Cours</a></li>
 						<li><a href="">Tarifs</a></li>
 						<li><a href="">Admission</a></li>
-						<li><a href="">Demand de dossier</a></li>
+						<li><a href="">Demande de dossier</a></li>
 						<li><a href="">Visa Etudiants</a></li>
 						<li><a href="">Sécurité Sociale</a></li>
 					</ul>
 				</li>
 				<li><a href="">Conférences</a>
 					<ul>
-						<li><a href="">Vérité dans l'Amours</a></li>
+						<li><a href="">Vérité dans l'Amour</a></li>
 						<li><a href="">Portes Ouvertes</a></li>
 						<li><a href="">Séminaires</a></li>
 					</ul>
@@ -59,7 +59,7 @@
 			</ul>
 		</nav>
 	</header>
-	<div role="main">
+	<div id="main" role="main">
 		<aside class="sidebar">
 			<ul>
 				<li>infos

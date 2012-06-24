@@ -83,12 +83,12 @@ body {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #fe57a1;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #fe57a1;
     text-shadow: none;
 }
 
@@ -439,13 +439,75 @@ td {
    Author: Robert Doucette
    ========================================================================== */
 
+header {
+    background: #d3d3d3;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
+#logo {
+    float: left;
+    height: 120px;
+    position: absolute;
+}
 
+header nav ul {
+    margin: 58px 0 0 150px;
+}
 
+header nav ul li {
+    float: left;
+    position: relative;
+}
 
+header nav ul li a {
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 10px 20px 10px 0;
+    text-decoration: none;
+}
 
+header nav ul li ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
 
+header nav ul li:hover ul {
+    display: block;
+}
 
+header nav ul li ul li a, header nav ul li ul li a:visited {
+    /*color: black;*/
+}
+
+header nav ul li ul li a {
+    background: #c3d4e6;
+    display: block;
+    padding-left: 5px;
+    width: 120px;
+}
+
+header nav ul li ul li a:hover {
+    background: yellow;
+}
+
+#main {
+    /*background: green;*/
+    margin: 80px auto 0 auto;
+    width: 90%;
+}
+
+.sidebar {
+    float: left;
+}
+
+footer {
+    text-align: center;
+}
 
 
 
