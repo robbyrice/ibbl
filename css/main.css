@@ -582,12 +582,14 @@ header nav ul li ul li a:hover {
 #content h2 {
     color: #336699;
     left: 10px;
+    margin: 0;
+    padding: 0;
     position: relative;
     text-transform: capitalize;
 }
 
 #content hr {
-    margin-bottom: 20px;
+    margin: 0 0 20px 0;
 }
 
 #content div blockquote {
@@ -625,7 +627,8 @@ header nav ul li ul li a:hover {
     position: relative;
 }
 
-#cours p {
+#cours p, #objectifs p {
+    margin: 0;
     padding-bottom: 10px;
 }
 
