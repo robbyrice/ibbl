@@ -62,25 +62,31 @@
 	<div id="main" role="main">
 		<aside class="sidebar">
 			<ul>
-				<li>infos
-					<ul>
-						<li><img src="img/vda2012inv.jpg" alt="Invitation VDA"></li>
-						<li><img src="img/fblike.jpg" alt="Facebook"></li>
-						<li><img src="img/news.jpg" alt="Lettre de nouvelles"></li>
-					</ul>
+				<li>
+					<fieldset>
+						<legend>infos</legend>
+						<ul>
+							<li><a href=""><img src="img/vda2012inv.jpg" alt="Invitation VDA"></a></li>
+							<!--<li><a href=""><img src="img/fblike.jpg" alt="Facebook"></a></li>-->
+							<!--<li><a href=""><img src="img/news.jpg" alt="Lettre de nouvelles"></a></li>-->
+						</ul>
+					</fieldset>
 				</li>
-				<li>liens utiles
-					<ul>
-						<li><a href="https://www.facebook.com/pages/Institut-Biblique-Baptiste-Libre-Ibbl/240811165966673"><img src="img/fb.jpg" alt="Facebook">Suivez-nous sur Facebook</a></li>
-						<li><a href=""><img src="img/newsletter.jpg" alt="">lettre de nouvelles</a></li>
-						<li><a href=""><img src="img/podcast.jpg" alt="">podcasts</a></li>
-						<li><a href=""><img src="img/catalogue.jpg" alt="">catalogue</a></li>
-						<li><a href=""><img src="img/calendar.jpg" alt="">calendrier</a></li>
-					</ul>
+				<li>
+					<fieldset>
+						<legend>liens utiles</legend>
+						<ul>
+							<li><a href="https://www.facebook.com/pages/Institut-Biblique-Baptiste-Libre-Ibbl/240811165966673"><img src="img/fb.jpg" alt="Facebook">Suivez-nous sur Facebook</a></li>
+							<li><a href=""><img src="img/newsletter.jpg" alt="">lettre de nouvelles</a></li>
+							<li><a href=""><img src="img/podcast.jpg" alt="">podcasts</a></li>
+							<li><a href=""><img src="img/catalogue.jpg" alt="">catalogue</a></li>
+							<li><a href=""><img src="img/calendar.jpg" alt="">calendrier</a></li>
+						</ul>
+					</fieldset>
 				</li>
 			</ul>
 		</aside>
-		<div class="main_content">
+		<div id="content">
 <?php $this->load->view($view.'_view'); ?>
 		</div>
 	</div>

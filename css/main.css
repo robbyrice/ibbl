@@ -439,12 +439,18 @@ td {
    Author: Robert Doucette
    ========================================================================== */
 
+h2, p, hr {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
 header {
     background: #d3d3d3;
     height: 80px;
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 3;
 }
 
 #logo {
@@ -469,7 +475,7 @@ header nav ul li a {
     text-decoration: none;
 }
 
-header nav ul li:hover > a {
+header nav ul li:hover a {
     color: #06e;
 }
 
@@ -498,17 +504,146 @@ header nav ul li ul li a:hover {
 }
 
 #main {
-    margin: 80px auto 0 auto;
+    margin: 0 auto;
+    position: relative;
     width: 90%;
 }
 
 .sidebar {
+    position: fixed;
+    top: 120px;
+    width: 165px;
+    z-index: 2;
+}
+
+.sidebar ul {
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    list-style: none;
+}
+
+.sidebar ul li:first-child{
+    margin: 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+}
+
+.sidebar ul li fieldset {
+    border: 1px solid gray;
+    font-size: 0.8em;
+    margin-bottom: 15px;
+    padding: 0 5px 5px 5px;
+    width: 150px;
+}
+
+.sidebar ul li fieldset ul li {
+    margin-top: 20px;
+}
+
+.sidebar ul li legend {
+    color: #336699;
+    font-size: 1.3em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+}
+
+.sidebar ul li img {
     float: left;
+    margin: -5px 3px 0 0;
+}
+
+#content {
+    font-size: 0.9em;
+    margin: 80px 0 0 250px;
+    padding: 50px 0 0 0;
+    position: relative;
+}
+
+#content div {
+    margin-bottom: 20px;
+}
+
+#content div:first-child img {
+    float: left;
+    margin: 10px 5px 0 0;
+}
+
+#content div:first-child h2 {
+    text-transform: uppercase;
+}
+
+#content h2 {
+    color: #336699;
+    left: 10px;
+    position: relative;
+    text-transform: capitalize;
+}
+
+#content hr {
+    margin-bottom: 20px;
+}
+
+#content div blockquote {
+    color: #006699;
+    font-style: italic;
+}
+
+#rencontres
+{
+    float: left;
+    position: relative;
+    width: 35%;
+}
+
+#rencontres ul {
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+
+#rencontres ul li
+{
+    float: left;
+    list-style: none;
+}
+
+#cours {
+    float: right;
+    position: relative;
+    width: 60%;
+}
+
+#cours img {
+    float: right;
+    position: relative;
+}
+
+#cours p {
+    padding-bottom: 10px;
+}
+
+#objectifs {
+    float: right;
+    position: relative;
+    width: 60%;
 }
 
 footer {
+    background: #d3d3d3;
+    clear: both;
+    font-size: 0.6em;
+    padding-top: 10px;
     text-align: center;
 }
+
+
 
 
 
