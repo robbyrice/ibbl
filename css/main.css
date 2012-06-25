@@ -510,8 +510,8 @@ header nav ul li ul li a:hover {
 }
 
 .sidebar {
-    position: fixed;
-    top: 120px;
+    position: absolute;
+    top: 70px;
     width: 165px;
     z-index: 2;
 }
@@ -643,7 +643,10 @@ footer {
     text-align: center;
 }
 
-
+footer p {
+    margin: 0;
+    padding: 0;
+}
 
 
 
