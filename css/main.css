@@ -475,8 +475,12 @@ header nav ul li a {
     text-decoration: none;
 }
 
+header nav ul li a, header nav ul li a:visited {
+    color: #6F6C6C;
+}
+
 header nav ul li:hover a {
-    color: #06e;
+    color: #069;
 }
 
 header nav ul li ul {
@@ -491,7 +495,8 @@ header nav ul li:hover ul {
 }
 
 header nav ul li ul li a {
-    background: #c3d4e6;
+    background: url('../img/tclbackmove.jpg');
+    color: #069;
     display: block;
     font-weight: normal;
     margin-left: 15px;
@@ -500,7 +505,7 @@ header nav ul li ul li a {
 }
 
 header nav ul li ul li a:hover {
-    background: yellow;
+    color: #1b1a1a;
 }
 
 #main {
