@@ -92,8 +92,7 @@
 		</div>
 	</div>
 	<footer>
-		<p>Etablissement Privé d'Enseignement Supérieur de Théologie - Académie de Versailles Loi du 12/07/1876; Art.3</p>
-		<p>© IBBL <?php echo date('Y'); ?></p>
+		<p>Etablissement Privé d'Enseignement Supérieur de Théologie - Académie de Versailles Loi du 12/07/1876; Art.3 - © IBBL <?php echo date('Y'); ?></p>
 	</footer>
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>

@@ -661,14 +661,20 @@ header nav ul li ul li:hover a:before {
 }
 
 footer {
-    background: #d3d3d3;
+    background: url('../img/footer.png') no-repeat;
+    bottom: 0;
     clear: both;
-    font-size: 0.6em;
-    padding-top: 10px;
+    font-size: 0.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 2px 0;
+    position: fixed;
     text-align: center;
+    width: 100%;
 }
 
 footer p {
+    color: white;
     margin: 0;
     padding: 0;
 }
