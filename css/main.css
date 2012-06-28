@@ -502,24 +502,30 @@ header nav ul li ul {
     margin: 0;
     padding: 0;
     position: absolute;
-    width: 750px;
 }
 
 header nav ul li:hover ul {
     display: block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
 }
 
 header nav ul li ul li a {
-    background: url('../img/tclbackmove.jpg');
+    background: white;
     color: #069;
+    display: block;
     font-weight: normal;
-    padding: 5px 10px 5px 20px;
+    padding: 10px 0 10px 18px;
+    width: 120px;
 }
 
 header nav ul li ul li:hover a {
-    color: #1b1a1a;
-    padding-left: 2px;
+    color: maroon;
+    padding-left: 0;
+    padding-right: 18px;
 }
+
 
 header nav ul li ul li:hover a:before {
     content: url('../img/tclarrowblack.gif');
