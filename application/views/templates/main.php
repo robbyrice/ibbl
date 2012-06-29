@@ -17,7 +17,7 @@
 
 	<header>
 		<a href="<?php echo base_url(); ?>"><img src="img/logo.jpg" alt="logo" id="logo"></a>
-		<div id="entete"></div>
+		<img src="img/image2.jpg" alt="" id="entete">
 		<nav>
 			<ul>
 				<li><a href="">Présentation</a>
