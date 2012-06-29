@@ -6,7 +6,7 @@
 <head>
 	<meta charset="utf-8">
 	<base href="<?php echo base_url(); ?>">
-	<title><?php if(isset($title) && $title != '') echo $title.' | '; echo config_item('site_name'); ?></title>
+	<title><?php if(isset($title) && $title !== '') echo $title.' | '; echo config_item('site_name'); ?></title>
 	<meta name="description" content="Le site de l'Institut Biblique Baptiste Libre, une école supérieure de Théologie. L'IBBL est un centre de formation pastorale et biblique se trouvant à Limay dans les Yvelines. Nos professeurs sont tous des pasteurs ou missionaires oeuvrant en France et à l'étranger.">
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="css/main.css">
@@ -88,7 +88,7 @@
 			</ul>
 		</aside>
 		<div id="content">
-<?php if(! isset($view) OR $view == '') $view = 'main'; $this->load->view($view.'_view'); ?>
+<?php if(isset($view) && $view !== '') $this->load->view($view.'_view'); ?>
 		</div>
 	</div>
 	<footer>
