@@ -16,7 +16,7 @@
 	<!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
 	<header>
-		<a href="<?php echo base_url(); ?>"><img src="img/logo.jpg" alt="logo" id="logo"></a>
+		<a href=""><img src="img/logo.jpg" alt="logo" id="logo"></a>
 		<img src="img/image2.jpg" alt="" id="entete">
 		<nav>
 			<ul>
