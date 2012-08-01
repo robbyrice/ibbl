@@ -49,7 +49,7 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'robert';
+$db['default']['username'] = 'ibbl';
 $db['default']['password'] = 'password';
 $db['default']['database'] = 'ibbl';
 $db['default']['dbdriver'] = 'mysql';
