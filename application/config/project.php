@@ -19,7 +19,7 @@
 | of most of the pages of the site.
 |
 */
-$config['site_name'] = 'IBBL';
+$config['site_name'] = 'ibbl';
 
 /*
 |--------------------------------------------------------------------------
