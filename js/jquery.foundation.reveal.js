@@ -126,7 +126,7 @@
     //
     // Apply the plugin functionality to each element in the jQuery collection.
     //
-    return this.each( function () {
+    return this.not('.reveal-modal.open').each( function () {
         //
         // Cache the modal element
         //
@@ -543,10 +543,6 @@
               modal.trigger( 'reveal:closed' );
 
             } // end if !modalQueued
-            //
-            // Reset the modalQueued variable.
-            //
-            modalQueued = false;
 
           } // end if animation 'fadeAndPop'
 
@@ -639,7 +635,10 @@
             modal.trigger( 'reveal:closed' );
 
           } // end if not animating
-
+          //
+          // Reset the modalQueued variable.
+          //
+          modalQueued = false;
         } // end if !locked
 
       } // end closeAnimation
